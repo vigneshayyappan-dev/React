@@ -39,7 +39,7 @@ function App() {
 }
 
 function Flashcard() {
-  const [selectedId, setSelectedId] = useState(6);
+  const [selectedId, setSelectedId] = useState(null);
   return (
     <div className="container">
       {questions.map((question) => {
